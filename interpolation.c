@@ -10,7 +10,7 @@ int main()
     float pw; //polynomial at w
     float *x = NULL, *y = NULL; //arrays of known data points coordinates
     float **f = NULL; //array of divided differences
-    float product = 1; //
+    float product = 1;
     int i, j, go = 1; //counters
     FILE *p = NULL;
     //open input file
@@ -58,7 +58,7 @@ int main()
     printf("POLYNOMIAL INTERPOLATION\n");
     while (go == 1)
     {
-        //введення w
+        //enter w
         printf("enter x*: ");
         scanf("%f", &w);
         //calculate the divided differences
